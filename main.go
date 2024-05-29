@@ -13,8 +13,8 @@ var (
 
 func main() {
 
-	flag.BoolVar(&isWorkspace, "ws", false, "gosetup -ws <boolean>")
-	flag.BoolVar(&dp, "dp", false, "gosetup -op <boolean>")
+	flag.BoolVar(&isWorkspace, "ws", false, "gosetup -ws=<boolean>")
+	flag.BoolVar(&dp, "dp", false, "gosetup -dp=<boolean>")
 
 	flag.Parse()
 
