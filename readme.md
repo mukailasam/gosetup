@@ -16,7 +16,7 @@ Gosetup is a Go project setup tool for Go backend developer. It automate the "pr
 ## Install
 
 ```
-go install https://github.com/mukailasam/gosetup
+go install github.com/mukailasam/gosetup
 ```
 
 ### Usage
