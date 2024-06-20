@@ -1,6 +1,6 @@
 <h1 style="font-family:monospace;">Gosetup</h1>
 <p style="text-align:center">
-<img style ="border-radius:20%" src="gosetup.jpg" width="350px" height="300px">
+<img style ="border-radius:2%" src="gosetup.png">
 </p>
 
 ## About
