@@ -79,7 +79,7 @@ func databasesListController() error {
 
 	switch val {
 	case 1:
-		err := runner("get", "-v", "github.com/jackc/pgx/v5", "Menu")
+		err := runner("get", "-v", "github.com/jackc/pgx/v5")
 		if err != nil {
 			return err
 		}
