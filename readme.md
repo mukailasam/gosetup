@@ -5,7 +5,7 @@
 
 ## About
 
-Gosetup is a Go project setup tool for Go backend developer. It automate the "process of creating a Go project and including its dependencies packages".
+Gosetup is a Go project setup tool for Go backend developer. It speeds up the process of creating a Go project and including its dependency packages.
 
 **_Add it to your toolbox_**
 

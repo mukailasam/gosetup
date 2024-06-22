@@ -66,7 +66,7 @@ func getPrerequitsite() string {
 func driver() {
 
 	displayer("Dependencies Menu", " WebFrameWork packages", " Router packages", " Database packages", " Configuration packages",
-		" log Packages", " Cache Packages", " Protocol Packages", " Test Packages", " CLI packages", "ThirdParty packages", "Other packages", "I'm DOne")
+		" log Packages", " Cache Packages", " Protocol Packages", " Test Packages", " CLI packages", "ThirdParty packages", "Other packages", "Exit")
 	val, err := picker()
 	if err != nil {
 		return
