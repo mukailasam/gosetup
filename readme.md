@@ -39,7 +39,7 @@ gosetup -ws=true
 
 ## Go straight to installing depedency packages
 
-Make use of the command in a situation whereby you already have a go project and all you wanted to do is include some dependency packages
+Make use of the command in a situation whereby you already have a go project and all you wanted to do is include some dependency packages. make sure you are in the project root directory
 
 ```
 gosetup -dp=true
