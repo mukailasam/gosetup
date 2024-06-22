@@ -9,7 +9,7 @@ import (
 
 var (
 	intro         = cyanText("\nsEtTing up yOur pRojecT...\n")
-	pickSomething = redText("either you pick a package, I'm done or Next")
+	pickSomething = redText("either you pick a package or go back to Menu")
 )
 
 /*
@@ -69,6 +69,7 @@ func driver() {
 		" log Packages", " Cache Packages", " Protocol Packages", " Test Packages", " CLI packages", "ThirdParty packages", "Other packages", "Exit")
 	val, err := picker()
 	if err != nil {
+		logger.Println(redText(err.Error()))
 		return
 	}
 
@@ -229,5 +230,4 @@ func driver() {
 	case 12:
 		finalMessage()
 	}
-
 }
